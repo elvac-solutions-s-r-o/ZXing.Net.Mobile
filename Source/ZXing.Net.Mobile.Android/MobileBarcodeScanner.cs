@@ -81,6 +81,7 @@ namespace ZXing.Mobile
 		{
 			return Scan (null, options);
 		}
+
 		public Task<Result> Scan (Context context, MobileBarcodeScanningOptions options)
 		{
 			var ctx = GetContext (context);

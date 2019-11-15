@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using Xamarin.Forms;
 using ZXing.Net.Mobile.Forms;
 using ZXing.Net.Mobile.Forms.WindowsUniversal;
@@ -22,7 +22,7 @@ namespace ZXing.Net.Mobile.Forms.WindowsUniversal
 
         protected override void OnElementPropertyChanged(object sender, PropertyChangedEventArgs e)
         {
-            regenerate();
+            Regenerate();
 
             base.OnElementPropertyChanged(sender, e);
         }
@@ -38,21 +38,26 @@ namespace ZXing.Net.Mobile.Forms.WindowsUniversal
                 base.SetNativeControl(imageView);
             }
 
-            regenerate();
+            Regenerate();
             
             base.OnElementChanged(e);
         }
 
-        void regenerate ()
+        void Regenerate ()
         {
             if (formsView != null && formsView.BarcodeValue != null)
             {
                 var writer = new ZXing.Mobile.BarcodeWriter();
 
                 if (formsView != null && formsView.BarcodeOptions != null)
+                {
                     writer.Options = formsView.BarcodeOptions;
+                }
+
                 if (formsView != null && formsView.BarcodeFormat != null)
+                {
                     writer.Format = formsView.BarcodeFormat;
+                }
 
                 var value = formsView != null ? formsView.BarcodeValue : string.Empty;
 

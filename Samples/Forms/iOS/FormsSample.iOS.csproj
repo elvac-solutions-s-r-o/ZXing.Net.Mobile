@@ -76,10 +76,10 @@
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Contents.json">
-      <InProject>false</InProject>
+      <Visible>false</Visible>
     </ImageAsset>
     <ImageAsset Include="Resources\Images.xcassets\LaunchImage.launchimage\Contents.json">
-      <InProject>false</InProject>
+      <Visible>false</Visible>
     </ImageAsset>
   </ItemGroup>
   <ItemGroup>
@@ -125,7 +125,7 @@
     <BundleResource Include="Resources\Icon%402x.png" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.TestCloud.Agent" Version="0.21.1" />
-    <PackageReference Include="Xamarin.Forms" Version="2.4.0.18342" />
+    <PackageReference Include="Xamarin.TestCloud.Agent" Version="0.21.9" />
+    <PackageReference Include="Xamarin.Forms" Version="4.2.0.910310" />
   </ItemGroup>
 </Project>

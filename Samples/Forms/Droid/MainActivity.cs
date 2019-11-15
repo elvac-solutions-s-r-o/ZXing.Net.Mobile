@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 using Android.App;
 using Android.Content;
@@ -22,6 +22,7 @@ namespace FormsSample.Droid
             global::Xamarin.Forms.Forms.Init (this, bundle);
 
             global::ZXing.Net.Mobile.Forms.Android.Platform.Init ();
+            ZXing.Mobile.MobileBarcodeScanner.Initialize(Application);
 
             formsApp = new App ();
             LoadApplication (formsApp);

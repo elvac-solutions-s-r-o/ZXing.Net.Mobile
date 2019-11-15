@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using Xamarin.Forms;
 using ZXing.Net.Mobile.Forms;
 using ZXing.Net.Mobile.Forms.Android;
@@ -32,7 +32,6 @@ namespace ZXing.Net.Mobile.Forms.Android
         protected ZXingScannerView formsView;
 
         protected ZXingSurfaceView zxingSurface;
-        internal Task<bool> requestPermissionsTask;
 
         protected override async void OnElementChanged(ElementChangedEventArgs<ZXingScannerView> e)
         {
@@ -57,7 +56,7 @@ namespace ZXing.Net.Mobile.Forms.Android
                 if (activity != null)                
                     await ZXing.Net.Mobile.Android.PermissionsHandler.RequestPermissionsAsync (activity);
                 
-                zxingSurface = new ZXingSurfaceView (Xamarin.Forms.Forms.Context as Activity, formsView.Options);
+                zxingSurface = new ZXingSurfaceView (Context as Activity, formsView.Options);
                 zxingSurface.LayoutParameters = new LayoutParams (LayoutParams.MatchParent, LayoutParams.MatchParent);
 
                 base.SetNativeControl (zxingSurface);

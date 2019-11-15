@@ -47,17 +47,17 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\ZXing.Net.Mobile.Forms\ZXing.Net.Mobile.Forms.csproj">
+    <ProjectReference Include="..\ZXing.Net.Mobile.Forms\ZXing.Net.Mobile.Forms.Unofficial.csproj">
       <Project>{8E54DB74-C094-4016-859A-D1C7F2509A58}</Project>
-      <Name>ZXing.Net.Mobile.Forms</Name>
+      <Name>ZXing.Net.Mobile.Forms.Unofficial</Name>
     </ProjectReference>
-    <ProjectReference Include="..\ZXing.Net.Mobile.Core\ZXing.Net.Mobile.Core.csproj">
+    <ProjectReference Include="..\ZXing.Net.Mobile.Core\ZXing.Net.Mobile.Core.Unofficial.csproj">
       <Project>{7528DD0A-1781-47F4-ADBF-EEDDB011F6BB}</Project>
-      <Name>ZXing.Net.Mobile.Core</Name>
+      <Name>ZXing.Net.Mobile.Core.Unofficial</Name>
     </ProjectReference>
-    <ProjectReference Include="..\ZXing.Net.Mobile.iOS\ZXing.Net.Mobile.iOS.csproj">
+    <ProjectReference Include="..\ZXing.Net.Mobile.iOS\ZXing.Net.Mobile.iOS.Unofficial.csproj">
       <Project>{6CBD1DF3-1FD3-4F20-80A2-A0C7414C411A}</Project>
-      <Name>ZXing.Net.Mobile.iOS</Name>
+      <Name>ZXing.Net.Mobile.iOS.Unofficial</Name>
     </ProjectReference>
     <ProjectReference Include="..\ZXing.Net\Source\lib\zxing.portable.csproj">
       <Project>{24b441f2-cbe9-4405-9fd0-72ebcbea0ec3}</Project>
@@ -65,6 +65,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="2.3.4.270" />
+    <PackageReference Include="Xamarin.Forms" Version="4.2.0.910310" />
   </ItemGroup>
 </Project>
