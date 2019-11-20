@@ -13,25 +13,25 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormsSample", "Core\FormsSa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormsSample.iOS", "iOS\FormsSample.iOS.csproj", "{776B89DF-2915-4701-B8A3-127D3340C77F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZXing.Net.Mobile.Android", "..\..\Source\ZXing.Net.Mobile.Android\ZXing.Net.Mobile.Android.csproj", "{AC17589E-C817-4FA8-B3EC-CCEB25E55E59}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZXing.Net.Mobile.Android", "..\..\Source\ZXing.Net.Mobile.Android\ZXing.Net.Mobile.Android.Unofficial.csproj", "{AC17589E-C817-4FA8-B3EC-CCEB25E55E59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZXing.Net.Mobile.iOS", "..\..\Source\ZXing.Net.Mobile.iOS\ZXing.Net.Mobile.iOS.csproj", "{6CBD1DF3-1FD3-4F20-80A2-A0C7414C411A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZXing.Net.Mobile.iOS", "..\..\Source\ZXing.Net.Mobile.iOS\ZXing.Net.Mobile.iOS.Unofficial.csproj", "{6CBD1DF3-1FD3-4F20-80A2-A0C7414C411A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZXing.Net.Mobile.WindowsUniversal", "..\..\Source\ZXing.Net.Mobile.WindowsUniversal\ZXing.Net.Mobile.WindowsUniversal.csproj", "{1B000BCA-4895-4ACF-A0C6-3ADF3A9BEDF2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZXing.Net.Mobile.WindowsUniversal", "..\..\Source\ZXing.Net.Mobile.WindowsUniversal\ZXing.Net.Mobile.WindowsUniversal.Unofficial.csproj", "{1B000BCA-4895-4ACF-A0C6-3ADF3A9BEDF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZXing.Net.Mobile.Core", "..\..\Source\ZXing.Net.Mobile.Core\ZXing.Net.Mobile.Core.csproj", "{7528DD0A-1781-47F4-ADBF-EEDDB011F6BB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZXing.Net.Mobile.Core", "..\..\Source\ZXing.Net.Mobile.Core\ZXing.Net.Mobile.Core.Unofficial.csproj", "{7528DD0A-1781-47F4-ADBF-EEDDB011F6BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZXing.Net.Mobile.Forms", "..\..\Source\ZXing.Net.Mobile.Forms\ZXing.Net.Mobile.Forms.csproj", "{8E54DB74-C094-4016-859A-D1C7F2509A58}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZXing.Net.Mobile.Forms", "..\..\Source\ZXing.Net.Mobile.Forms\ZXing.Net.Mobile.Forms.Unofficial.csproj", "{8E54DB74-C094-4016-859A-D1C7F2509A58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZXing.Net.Mobile.Forms.Android", "..\..\Source\ZXing.Net.Mobile.Forms.Android\ZXing.Net.Mobile.Forms.Android.csproj", "{DC2FF2AE-4090-4056-BBE4-087BDE6567BD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZXing.Net.Mobile.Forms.Android", "..\..\Source\ZXing.Net.Mobile.Forms.Android\ZXing.Net.Mobile.Forms.Android.Unofficial.csproj", "{DC2FF2AE-4090-4056-BBE4-087BDE6567BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZXing.Net.Mobile.Forms.WindowsUniversal", "..\..\Source\ZXing.Net.Mobile.Forms.WindowsUniversal\ZXing.Net.Mobile.Forms.WindowsUniversal.csproj", "{C785F56E-0D1D-492C-850B-4D882314F29B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZXing.Net.Mobile.Forms.WindowsUniversal", "..\..\Source\ZXing.Net.Mobile.Forms.WindowsUniversal\ZXing.Net.Mobile.Forms.WindowsUniversal.Unofficial.csproj", "{C785F56E-0D1D-492C-850B-4D882314F29B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZXing.Net.Mobile.Forms.iOS", "..\..\Source\ZXing.Net.Mobile.Forms.iOS\ZXing.Net.Mobile.Forms.iOS.csproj", "{8370ADB4-229C-4DEC-908F-B1A8FC155523}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZXing.Net.Mobile.Forms.iOS", "..\..\Source\ZXing.Net.Mobile.Forms.iOS\ZXing.Net.Mobile.Forms.iOS.Unofficial.csproj", "{8370ADB4-229C-4DEC-908F-B1A8FC155523}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zxing.portable", "..\..\Source\ZXing.Net\Source\lib\zxing.portable.csproj", "{24B441F2-CBE9-4405-9FD0-72EBCBEA0EC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZXing.Net.Mobile.Portable", "..\..\Source\ZXing.Net.Mobile.Portable\ZXing.Net.Mobile.Portable.csproj", "{78407906-99C6-42B0-A511-973FC78C58CB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZXing.Net.Mobile.Portable", "..\..\Source\ZXing.Net.Mobile.Portable\ZXing.Net.Mobile.Portable.Unofficial.csproj", "{78407906-99C6-42B0-A511-973FC78C58CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

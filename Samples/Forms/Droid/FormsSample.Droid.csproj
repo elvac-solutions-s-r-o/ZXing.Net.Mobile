@@ -62,21 +62,21 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Source\ZXing.Net.Mobile.Core\ZXing.Net.Mobile.Core.csproj">
-      <Project>{7528DD0A-1781-47F4-ADBF-EEDDB011F6BB}</Project>
-      <Name>ZXing.Net.Mobile.Core</Name>
+    <ProjectReference Include="..\..\..\Source\ZXing.Net.Mobile.Android\ZXing.Net.Mobile.Android.Unofficial.csproj">
+      <Project>{ac17589e-c817-4fa8-b3ec-cceb25e55e59}</Project>
+      <Name>ZXing.Net.Mobile.Android.Unofficial</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\Source\ZXing.Net.Mobile.Forms.Android\ZXing.Net.Mobile.Forms.Android.csproj">
-      <Project>{DC2FF2AE-4090-4056-BBE4-087BDE6567BD}</Project>
-      <Name>ZXing.Net.Mobile.Forms.Android</Name>
+    <ProjectReference Include="..\..\..\Source\ZXing.Net.Mobile.Core\ZXing.Net.Mobile.Core.Unofficial.csproj">
+      <Project>{7528dd0a-1781-47f4-adbf-eeddb011f6bb}</Project>
+      <Name>ZXing.Net.Mobile.Core.Unofficial</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\Source\ZXing.Net.Mobile.Forms\ZXing.Net.Mobile.Forms.csproj">
-      <Project>{8E54DB74-C094-4016-859A-D1C7F2509A58}</Project>
-      <Name>ZXing.Net.Mobile.Forms</Name>
+    <ProjectReference Include="..\..\..\Source\ZXing.Net.Mobile.Forms.Android\ZXing.Net.Mobile.Forms.Android.Unofficial.csproj">
+      <Project>{dc2ff2ae-4090-4056-bbe4-087bde6567bd}</Project>
+      <Name>ZXing.Net.Mobile.Forms.Android.Unofficial</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\Source\ZXing.Net.Mobile.Android\ZXing.Net.Mobile.Android.csproj">
-      <Project>{AC17589E-C817-4FA8-B3EC-CCEB25E55E59}</Project>
-      <Name>ZXing.Net.Mobile.Android</Name>
+    <ProjectReference Include="..\..\..\Source\ZXing.Net.Mobile.Forms\ZXing.Net.Mobile.Forms.Unofficial.csproj">
+      <Project>{8e54db74-c094-4016-859a-d1c7f2509a58}</Project>
+      <Name>ZXing.Net.Mobile.Forms.Unofficial</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\..\Source\ZXing.Net\Source\lib\zxing.portable.csproj">
       <Project>{24b441f2-cbe9-4405-9fd0-72ebcbea0ec3}</Project>

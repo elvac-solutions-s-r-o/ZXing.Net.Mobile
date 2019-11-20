@@ -5,9 +5,9 @@ VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zxing.portable", "..\..\Source\ZXing.Net\Source\lib\zxing.portable.csproj", "{24B441F2-CBE9-4405-9FD0-72EBCBEA0EC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZXing.Net.Mobile.Core", "..\..\Source\ZXing.Net.Mobile.Core\ZXing.Net.Mobile.Core.csproj", "{7528DD0A-1781-47F4-ADBF-EEDDB011F6BB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZXing.Net.Mobile.Core", "..\..\Source\ZXing.Net.Mobile.Core\ZXing.Net.Mobile.Core.Unofficial.csproj", "{7528DD0A-1781-47F4-ADBF-EEDDB011F6BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZXing.Net.Mobile.WindowsUniversal", "..\..\Source\ZXing.Net.Mobile.WindowsUniversal\ZXing.Net.Mobile.WindowsUniversal.csproj", "{1B000BCA-4895-4ACF-A0C6-3ADF3A9BEDF2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZXing.Net.Mobile.WindowsUniversal", "..\..\Source\ZXing.Net.Mobile.WindowsUniversal\ZXing.Net.Mobile.WindowsUniversal.Unofficial.csproj", "{1B000BCA-4895-4ACF-A0C6-3ADF3A9BEDF2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.WindowsUniversal", "Sample.WindowsUniversal\Sample.WindowsUniversal.csproj", "{67ADB9A5-9F5E-4D4A-9B31-9BEFB91EE5F1}"
 EndProject

@@ -32,7 +32,7 @@ namespace FormsSample
             {
                 var scanner = new ZXing.Mobile.MobileBarcodeScanner();
 
-                MobileBarcodeScanningOptions scanningOptions = new ZXing.Mobile.MobileBarcodeScanningOptions();
+                MobileBarcodeScanningOptions scanningOptions = null;
 
                 if (DeviceInfo.Manufacturer == "QUALCOMM"
                     && DeviceInfo.Model == "p80")
@@ -61,7 +61,16 @@ namespace FormsSample
                     };
                 }
 
-                var result = await scanner.Scan(scanningOptions);
+                ZXing.Result result = null;
+
+                if (scanningOptions != null)
+                {
+                    await scanner.Scan(scanningOptions);
+                }
+                else
+                {
+                    await scanner.Scan();
+                }
 
                 if (result != null && result.Text != null)
                 {

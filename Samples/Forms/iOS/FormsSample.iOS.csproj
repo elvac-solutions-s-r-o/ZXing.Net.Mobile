@@ -95,21 +95,25 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Source\ZXing.Net.Mobile.Core\ZXing.Net.Mobile.Core.csproj">
-      <Project>{7528DD0A-1781-47F4-ADBF-EEDDB011F6BB}</Project>
-      <Name>ZXing.Net.Mobile.Core</Name>
+    <ProjectReference Include="..\..\..\Source\ZXing.Net.Mobile.Core\ZXing.Net.Mobile.Core.Unofficial.csproj">
+      <Project>{7528dd0a-1781-47f4-adbf-eeddb011f6bb}</Project>
+      <Name>ZXing.Net.Mobile.Core.Unofficial</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\Source\ZXing.Net.Mobile.Forms\ZXing.Net.Mobile.Forms.csproj">
-      <Project>{8E54DB74-C094-4016-859A-D1C7F2509A58}</Project>
-      <Name>ZXing.Net.Mobile.Forms</Name>
+    <ProjectReference Include="..\..\..\Source\ZXing.Net.Mobile.Forms.iOS\ZXing.Net.Mobile.Forms.iOS.Unofficial.csproj">
+      <Project>{8370adb4-229c-4dec-908f-b1a8fc155523}</Project>
+      <Name>ZXing.Net.Mobile.Forms.iOS.Unofficial</Name>
+      <IsAppExtension>false</IsAppExtension>
+      <IsWatchApp>false</IsWatchApp>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\Source\ZXing.Net.Mobile.Forms.iOS\ZXing.Net.Mobile.Forms.iOS.csproj">
-      <Project>{8370ADB4-229C-4DEC-908F-B1A8FC155523}</Project>
-      <Name>ZXing.Net.Mobile.Forms.iOS</Name>
+    <ProjectReference Include="..\..\..\Source\ZXing.Net.Mobile.Forms\ZXing.Net.Mobile.Forms.Unofficial.csproj">
+      <Project>{8e54db74-c094-4016-859a-d1c7f2509a58}</Project>
+      <Name>ZXing.Net.Mobile.Forms.Unofficial</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\Source\ZXing.Net.Mobile.iOS\ZXing.Net.Mobile.iOS.csproj">
-      <Project>{6CBD1DF3-1FD3-4F20-80A2-A0C7414C411A}</Project>
-      <Name>ZXing.Net.Mobile.iOS</Name>
+    <ProjectReference Include="..\..\..\Source\ZXing.Net.Mobile.iOS\ZXing.Net.Mobile.iOS.Unofficial.csproj">
+      <Project>{6cbd1df3-1fd3-4f20-80a2-a0c7414c411a}</Project>
+      <Name>ZXing.Net.Mobile.iOS.Unofficial</Name>
+      <IsAppExtension>false</IsAppExtension>
+      <IsWatchApp>false</IsWatchApp>
     </ProjectReference>
     <ProjectReference Include="..\..\..\Source\ZXing.Net\Source\lib\zxing.portable.csproj">
       <Project>{24b441f2-cbe9-4405-9fd0-72ebcbea0ec3}</Project>

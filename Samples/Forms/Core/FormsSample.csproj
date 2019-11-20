@@ -40,17 +40,17 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Source\ZXing.Net.Mobile.Core\ZXing.Net.Mobile.Core.csproj">
-      <Project>{7528DD0A-1781-47F4-ADBF-EEDDB011F6BB}</Project>
-      <Name>ZXing.Net.Mobile.Core</Name>
+    <ProjectReference Include="..\..\..\Source\ZXing.Net.Mobile.Core\ZXing.Net.Mobile.Core.Unofficial.csproj">
+      <Project>{7528dd0a-1781-47f4-adbf-eeddb011f6bb}</Project>
+      <Name>ZXing.Net.Mobile.Core.Unofficial</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\Source\ZXing.Net.Mobile.Forms\ZXing.Net.Mobile.Forms.csproj">
-      <Project>{8E54DB74-C094-4016-859A-D1C7F2509A58}</Project>
-      <Name>ZXing.Net.Mobile.Forms</Name>
+    <ProjectReference Include="..\..\..\Source\ZXing.Net.Mobile.Forms\ZXing.Net.Mobile.Forms.Unofficial.csproj">
+      <Project>{8e54db74-c094-4016-859a-d1c7f2509a58}</Project>
+      <Name>ZXing.Net.Mobile.Forms.Unofficial</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\Source\ZXing.Net.Mobile.Portable\ZXing.Net.Mobile.Portable.csproj">
+    <ProjectReference Include="..\..\..\Source\ZXing.Net.Mobile.Portable\ZXing.Net.Mobile.Portable.Unofficial.csproj">
       <Project>{78407906-99c6-42b0-a511-973fc78c58cb}</Project>
-      <Name>ZXing.Net.Mobile.Portable</Name>
+      <Name>ZXing.Net.Mobile.Portable.Unofficial</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\..\Source\ZXing.Net\Source\lib\zxing.portable.csproj">
       <Project>{24b441f2-cbe9-4405-9fd0-72ebcbea0ec3}</Project>
