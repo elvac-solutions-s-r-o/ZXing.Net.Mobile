@@ -405,16 +405,16 @@ namespace ZXing.Mobile.CameraAccess
                 switch (rotation)
                 {
                     case SurfaceOrientation.Rotation0:
-                        degrees = 270;
+                        degrees = 0;
                         break;
                     case SurfaceOrientation.Rotation90:
-                        degrees = 180;
-                        break;
-                    case SurfaceOrientation.Rotation180:
                         degrees = 90;
                         break;
+                    case SurfaceOrientation.Rotation180:
+                        degrees = 180;
+                        break;
                     case SurfaceOrientation.Rotation270:
-                        degrees = 0;
+                        degrees = 270;
                         break;
                     default:
                         throw new ArgumentOutOfRangeException();
